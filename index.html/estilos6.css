@@ -1,0 +1,37 @@
+.como{
+    color: #333;
+    background-color: #7dd295;
+    border: 2px solid #466683;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+.como:hover{
+    color: white;
+    background-color: #d8953c;
+}
+#menu{
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #d2f06c;
+    margin: 20px 0;
+    border: black 2px solid;
+}
+body{
+    background-color: rgb(140, 182, 78);
+}
+header, footer {
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.pi{
+    text-align: center;
+    font-size: 1.2em;
+    color: #333;
+}

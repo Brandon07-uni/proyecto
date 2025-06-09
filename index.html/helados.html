@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria Blanco</title>
+    <link rel="stylesheet" href="estilos3.css">
+</head>
+<body>
+    <header><h1>Helados</h1></header>
+    <nav id="menu">
+        <h2>Menu de Navegacion</h2>
+        <ul class="menu">
+            <h2><a href="index.html" class="como">Principal</a>
+            <a href="pasteles.html" class="como">Pasteles</a>
+            <a href="helados.html" class="como">Helados</a>
+            <a href="galletas.html" class="como">Galletas</a>
+            <a href="cafe.html" class="como">Cafeteria</a>
+            <a href="saludable.html" class="como">Saludable</a></h2>
+        </ul>
+    </nav>   
+        <section>
+            <h2><p>En nuestra pastelería ofrecemos una variedad de helados artesanales, elaborados con ingredientes frescos y naturales. Nuestros sabores incluyen:</p></h2>
+            <h3><ul>
+                <a href="#vainilla"><li>Vainilla Clásica</li></a>
+                <a href="#chocolate"><li>Chocolate Amargo</li></a>
+                <a href="#fresas"><li>Fresa Fresca</li></a>
+                <a href="#mango"><li>Mango Tropical</li></a>
+                <a href="#matcha"><li>Matcha Verde</li></a></h3>
+            </ul>
+            <p>Todos nuestros helados son libres de conservantes y colorantes artificiales. ¡Ven a disfrutar de un delicioso helado!</p>
+        </section>
+    </nav>
+    <form>
+  <label for="producto">Producto:</label>
+  <select id="producto" name="producto">
+    <option value="">--Seleccione--</option>
+    <option value="vainilla">Healdo de vainilla - 10.00 bs</option>
+    <option value="chocolate2">Helado de chocolate amargo - 12.50 bs</option>
+    <option value="fresa">Helado de fresa - 12.00 bs</option>
+    <option value="mango">Helado de mango - 15.00 bs</option>
+    <option value="matcha">Helado de matcha - 13.00 bs</option>
+  </select>
+  <br><br>
+
+  <label for="cantidad">Cantidad:</label>
+  <input type="number" id="cantidad" name="cantidad" min="1" value="1" />
+  <br><br>
+
+  <p>Precio unitario: bs<span id="precioUnitario">0.00</span></p>
+  <p>Total: bs<span id="total">0.00</span></p>
+  
+  <input type="submit" value="Comprar" />
+</form>
+
+<script src="script1.js"></script>  
+    <section>
+        <article id="vainilla">
+            <h3>Vinilla Clasica</h3>
+            <h4>Ingredientes</h4>
+            <ul>
+                <li>500 ml de leche</li>
+                <li>250 ml de nata</li>
+                <li>5 yemas de huevo</li>
+                <li>150 g de azucar</li>
+                <li>1 vaina de vainilla</li>
+                <li>1 pisca de sal</li>
+            </ul>
+            <div class="pi">
+            <img src="vainilla.png" alt="Helado de vainilla clasica" class="helado">
+            </div>
+            <p>Delicioso helado de vainilla con un toque cremoso y suave.</p>
+        </article>
+        <article id="chocolate">
+            <h3>Cholotate Amargo</h3>
+            <h4>Ingredientes</h4>
+            <ul>
+                <li>500 ml de leche entera</li>
+                <li>250 ml de nata</li>
+                <li>5 yemas de huevo</li>
+                <li>150 g de azucar</li>
+                <li>200 g de chocolate negro</li>
+                <li>30 g de cacao puro en polvo</li>
+                <li>1 pizca de sal</li>
+            </ul>
+            <div class="pi">
+            <img src="amargo.png" alt="Helado de chocolate amargo">
+            </div>
+            <p>"Intensamente oscuro, irresistiblemente cremoso 
+                <br>prueba el verdadero placer del chocolate.</p>
+        </article>
+        <article id="fresas">
+            <h3>Fresa fresca</h3>
+            <h4>Ingredientes</h4>
+            <ul>
+                <li>200 ml de leche entera</li>
+                <li>250 ml de nata</li>
+                <li>5 yemas de huevo</li>
+                <li>150 g de azucar</li>
+                <li>400 g de fresas lavadas</li>
+                <li>1 cucharadita de jugo de limon</li>
+            </ul>
+            <div class="pi">
+            <img src="fresas.png" alt="Delicioso Helado e fresas frescas">
+            </div>
+            <p>El sabor del verano, hecho helado</p>
+        </article>
+        <article id="mango">
+            <h3>Mango Tropical</h3>
+            <h4>Ingredientes</h4>
+            <ul>
+                <li>2 mangos maduros grandes</li>
+                <li>200 ml de nata</li>
+                <li>200 ml de leche</li>
+                <li>120-150 g de azucar</li>
+                <li>jugo de medio limon</li>
+            </ul>
+            <div class="pi">
+            <img src="mango.png" alt="Delicioso helado de mango">
+            </div>
+            <p>Un viaje a la playa en cada cucharada</p>
+        </article>  
+        <article id="matcha">
+            <h3>Matcha Verde</h3>
+            <h4>Ingredientes</h4>
+            <ul>
+                <li>500 ml de leche</li>
+                <li>200 ml de nata</li>
+                <li>4yemas de huevo</li>
+                <li>120 g de azucar</li>
+                <li>2 cucharadas de matcha en polvo</li>
+                <li>1 pizca de sal</li>
+            </ul>
+            <div class="pi">
+            <img src="matcha.png" alt="Delicioso helado de matcha verde">
+            </div>
+            <p>Un toque de frescura y antioxidantes en cada bocado</p>
+        </article>
+    </section>
+    <h1><footer>Hecho por Brandon Blanco</footer></h1>
+</body>
+</html>

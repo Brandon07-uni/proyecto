@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria Blanco</title>
+    <link rel="stylesheet" href="estilos6.css">
+</head>
+<body>
+    <header><h1>Saludable</h1></header>
+    <nav id="menu">
+        <h2>Menu de Navegacion</h2>
+        <ul class="menu">
+            <h2><a href="index.html" class="como">Principal</a>
+            <a href="pasteles.html" class="como">Pasteles</a>
+            <a href="helados.html" class="como">Helados</a>
+            <a href="galletas.html" class="como">Galletas</a>
+            <a href="cafe.html" class="como">Cafeteria</a>
+            <a href="saludable.html" class="como">Saludable</a></h2>
+        </ul>
+    </nav>
+    <nav id="menu2">
+        <h2>Menu de Navegacion</h2>
+        <ul>
+            <h3><li><a href="#ensalada">Ensalada Fresca</a></li>
+            <li><a href="#smoothie">Smoothie de Frutas</a></li>
+            <li><a href="#sopa">Sopa de Verduras</a></li>
+            <li><a href="#tostada">Tostada Integral</a></li>
+            </h3>
+        </ul>
+    </nav>
+    <form>
+    <label for="producto">Producto:</label>
+    <select id="producto" name="producto">
+      <option value="">--Seleccione--</option>
+      <option value="ensa">Ensalada fresca - 10.00 bs</option>
+      <option value="smo">Smoothie de frutas - 12.50 bs</option>
+      <option value="sopa">Sopa de verduras - 12.00 bs</option>
+      <option value="tos">Tostada Integral - 15.00 bs</option>
+    </select>
+    <br><br>
+    <label for="cantidad">Cantidad:</label>
+    <input type="number" id="cantidad" name="cantidad" min="1" value="1" />
+    <br><br>
+  <p>Precio unitario: bs<span id="precioUnitario">0.00</span></p>
+  <p>Total: bs<span id="total">0.00</span></p>
+  <input type="precio" value="Comprar" />
+  </form>
+  <script src="script4.js"></script>      
+    <section>
+        <article id="ensalada">
+            <h3>Ensalada Fresca</h3>
+            <h4>Ingredientes</h4>
+            <ul>
+                <li>Lechuga</li>
+                <li>Tomate</li>
+                <li>Pepino</li>
+                <li>Aguacate</li>
+                <li>Aderezo de yogur</li>
+            </ul>
+            <div class="pi">
+                <img src="ensalada.png" alt="Imagen de una ensalada fresca" class="ensalada">
+            </div>
+            <p>Ensalada fresca con ingredientes saludables y un aderezo ligero.</p>
+        </article>
+
+        <article id="smoothie">
+            <h3>Smoothie de Frutas</h3>
+            <h4>Ingredientes</h4>
+            <ul>
+                <li>Plátano</li>
+                <li>Fresas</li>
+                <li>Yogur natural</li>
+                <li>Miel al gusto</li>
+            </ul>
+            <div class="pi">
+                <img src="smoothie.png" alt="Imagen de un smoothie de frutas" class="smoothie">
+            </div>
+            <p>Smoothie refrescante y nutritivo, ideal para cualquier momento del día.</p>
+        </article>
+
+        <article id="sopa">
+            <h3>Sopa de Verduras</h3>
+            <h4>Ingredientes</h4>
+            <ul>
+                <li>Zanahoria</li>
+                <li>Apio</li>
+                <li>Cebolla</li>
+                <li>Ajo</li>
+                <li>Caldo de verduras</li>
+            </ul>
+            <div class="pi">
+                <img src="sopa.png" alt="Imagen de una sopa de verduras" class="sopa">
+            </div>
+            <p>Sopa caliente y reconfortante, perfecta para los días fríos.</p>
+        </article>
+
+        <article id="tostada">
+            <h3>Tostada Integral con Palta</h3>
+            <h4>Ingredientes</h4>
+            <ul>
+                <li>Pañuelo integral tostado</li>
+                <li>Palta madura</li>
+                <li>Sal y pimienta al gusto</li>
+                <li>Rodajas de tomate</li>
+            </ul>
+            <div class="pi">
+                <img src="tostada.png" alt="Imagen de una tostada integral con aguacate" class="tostada">
+            </div>
+            <p>Tostada integral con aguacate, una opción saludable y deliciosa para el desayuno.</p>
+        </article>
+    </section>
+    <footer><h1>Hecho por Brandon Blanco</h1></footer>       
+</body>
+</html>

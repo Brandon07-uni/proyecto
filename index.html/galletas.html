@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria Blanco</title>
+    <link rel="stylesheet" href="estilos4.css">
+</head>
+<body>
+    <header><h1>Galletas</h1></header>
+    <nav id="menu">
+        <h2>Menu de Navegacion</h2>
+        <ul class="menu">
+            <h2><a href="index.html" class="como">Principal</a>
+            <a href="pasteles.html" class="como">Pasteles</a>
+            <a href="helados.html" class="como">Helados</a>
+            <a href="galletas.html" class="como">Galletas</a>
+            <a href="cafe.html" class="como">Cafeteria</a>
+            <a href="saludable.html" class="como">Saludable</a></h2>
+        </ul>
+    </nav>
+    <nav id="menu2">
+        <h2>Menu de Navegacion</h2>
+        <ul>
+            <h3><li><a href="#avena">Galletas de Avena</a></li>
+            <li><a href="#chocolate">Galletas de Chocolate</a></li>
+            <li><a href="#coco">Galletas de Coco</a></li>
+            <li><a href="#mantequilla">Galletas de Mantequilla</a></li>
+            </h3>
+        </ul>
+    </nav>
+    <form>
+    <label for="producto">Producto:</label>
+    <select id="producto" name="producto">
+      <option value="">--Seleccione--</option>
+      <option value="avena">Galletas de avena - 10.00 bs</option>
+      <option value="chocolate">Galletas de chocolate - 12.50 bs</option>
+      <option value="coco">Galletas de Coco - 12.00 bs</option>
+      <option value="matequilla">Galletasa de matequilla - 15.00 bs</option>
+    </select>
+    <br><br>
+    <label for="cantidad">Cantidad:</label>
+    <input type="number" id="cantidad" name="cantidad" min="1" value="1" />
+    <br><br>
+  <p>Precio unitario: bs<span id="precioUnitario">0.00</span></p>
+  <p>Total: bs<span id="total">0.00</span></p>
+  <input type="precio" value="Comprar" />
+  </form>
+  <script src="script2.js"></script> 
+    <section>
+    <article>
+      <h3>Galletas de Avena</h3>
+      <h4>Ingredientes</h4>
+            <ul>
+                <li>100 g de mantequilla</li>
+                <li>100 g de azucar morena</li>
+                <li>1 huevo</li>
+                <li>1 cucharadita de esencia de vainilla</li>
+                <li>100 g de harina de trigo</li>
+                <li>1/2 cucharaditade bicarbonato de sodio</li>
+                <li>1 pisca de sal</li>
+                <li>150 g de avena en hojuelas</li>
+            </ul>
+            <div class="pi">
+            <img src="avena.png" alt="Galleta de Avena" class="galleta">
+            </div>
+      <p>Delicioso helado de vainilla con un toque cremoso y suave.</p> 
+    </article>
+    <article id="chocolate">
+      <h3>Galletas de Chocolate</h3>
+        <h4>Ingredientes</h4>
+             <ul>
+                <li>100 g de mantequilla</li>
+                <li>100 g de azucar morena</li>
+                <li>1 huevo</li>
+                <li>1 cucharadita de esencia de vainilla</li>
+                <li>100 g de harina de trigo</li>
+                <li>1/2 cucharaditade bicarbonato de sodio</li>
+                <li>1 pisca de sal</li>
+                <li>150 g de chispas de chocolate</li>
+            </ul>
+            <div class="pi">
+               <img src="chocolate.png" alt="Galleta de Chocolate" class="galleta">
+            </div>
+    </article>  
+    <article id="coco">
+      <h3>Galletas de Coco</h3>
+      <h4>Ingredientes</h4>
+      <ul>
+            <li>100 g de mantequilla</li>
+            <li>100 g de azucar morena</li>
+            <li>1 huevo</li>
+            <li>1 cucharadita de esencia de vainilla</li>
+            <li>100 g de harina de trigo</li>
+            <li>1/2 cucharaditade bicarbonato de sodio</li>
+            <li>1 pisca de sal</li>
+             <li>150 g de coco rallado</li>
+        </ul>
+      <div class="pi">
+        <img src="coco.png" alt="Galleta de Coco" class="galleta">
+      </div>
+        <p>Deliciosas galletas de coco con un toque crujiente y suave.</p>
+    </article>
+    <article id="mantequilla">
+        <h3>Galletas de mantequilla</h3>
+        <h4>Ingredientes</h4>
+        <ul>
+            <li>100 g de mantequilla</li>
+            <li>100 g de azucar morena</li>
+            <li>1 huevo</li>
+            <li>1 cucharadita de esencia de vainilla</li>
+            <li>100 g de harina de trigo</li>
+            <li>1/2 cucharaditade bicarbonato de sodio</li>
+            <li>1 pisca de sal</li>
+            <li>150 g de nueces picadas</li>
+        </ul>
+        <div class="pi">
+            <img src="mantequilla.png" alt="Galleta de Mantequilla" class="galleta">
+        </div>
+        <p>Galletas de mantequilla con un toque crujiente y suave.</p>    
+    </article>  
+    </section>
+<footer>
+    <h1>Hecho por Brandon Blanco</h1>
+</footer>
+</body>
+</html>

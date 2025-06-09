@@ -1,0 +1,98 @@
+body{
+    background-color: #6bb2b5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+header,footer{
+    text-align: center;
+}
+article{
+    border: 2px solid #c77d7d;
+    padding: 20px;
+    border-radius: 10px;
+}
+#menu{
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #86b4b8;
+    margin: 20px 0;
+    border: black 2px solid;
+}
+img{
+    border-radius: 10px 10px 10px 10px;
+    margin: 0 auto;
+    width: 15%;
+    display: block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease;
+}
+p{
+    text-align: center;
+    line-height: 1.2;
+    color: #444;
+}
+.pastel{
+    background-color: #300e0d;
+    border: 2px solid #467886;
+    padding: 5px;
+    border-radius: 10px;
+}
+.choclo{
+    width: 20%;
+    height: auto;
+    color: #333;
+    background-color: #300e0d;
+    border: 2px solid #466683;
+    padding: 5px;
+    border-radius: 10px;
+}
+.tarta{
+    width: 20%;
+    height: auto;
+    color: #333;
+    background-color: #300e0d;
+    border: 2px solid #466683;
+    padding: 5px;
+    border-radius: 10px;
+}
+.fresa{
+    width: 20%;
+    height: auto;
+    color: #333;
+    background-color: #300e0d;
+    border: 2px solid #466683;
+    padding: 5px;
+    border-radius: 10px;
+}
+@media (max-width: 450px) {
+  form {
+    flex-direction: column;
+  }
+    body{
+        background-color: rgb(72, 24, 24);
+    }
+}
+.menu2{
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #86b4b8;
+    border-radius: 10px;
+}
+.como{
+    color: #333;
+    background-color: #7dd295;
+    border: 2px solid #466683;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+.como:hover{
+    color: white;
+    background-color: #621b76;
+}

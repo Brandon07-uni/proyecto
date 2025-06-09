@@ -1,0 +1,15 @@
+/* Quitamos márgenes para evitar espacios entre secciones */
+section {
+  margin: 0;
+  padding: 20px;
+}
+
+/* Fondo y estilo para la primera sección */
+.seccion1 {
+  background-color: lightblue;
+}
+
+/* Fondo y estilo para la segunda sección */
+.seccion2 {
+  background-color: lightcoral;
+}

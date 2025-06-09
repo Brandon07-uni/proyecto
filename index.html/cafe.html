@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria Blanco</title>
+    <link rel="stylesheet" href="estilos5.css">
+</head>
+<body>
+    <header><h1>Cafeteria</h1></header>
+    <nav id="menu">
+        <h2>Menu de Navegacion</h2>
+        <ul class="menu">
+            <h2><a href="index.html" class="como">Principal</a>
+            <a href="pasteles.html" class="como">Pasteles</a>
+            <a href="helados.html" class="como">Helados</a>
+            <a href="galletas.html" class="como">Galletas</a>
+            <a href="cafe.html" class="como">Cafeteria</a>
+            <a href="saludable.html" class="como">Saludable</a></h2>
+        </ul>
+    </nav>
+    <section>
+        <nav id="menu2">
+            <h2>Menu de Navegacion</h2>
+            <ul>
+                <h3><li><a href="#cappuccino">Cappuccino</a></li>
+                <li><a href="#espresso">Espresso</a></li>
+                <li><a href="#latte">Latte</a></li>
+                <li><a href="#mocha">Mocha</a></li>
+                </h3>
+            </ul>
+        </nav>
+    <form>
+    <label for="producto">Producto:</label>
+    <select id="producto" name="producto">
+      <option value="">--Seleccione--</option>
+      <option value="capu">Cappuccino - 10.00 bs</option>
+      <option value="espe">Espresso - 12.50 bs</option>
+      <option value="late">Latte - 12.00 bs</option>
+      <option value="mocha">Mocha - 15.00 bs</option>
+    </select>
+    <br><br>
+    <label for="cantidad">Cantidad:</label>
+    <input type="number" id="cantidad" name="cantidad" min="1" value="1" />
+    <br><br>
+  <p>Precio unitario: bs<span id="precioUnitario">0.00</span></p>
+  <p>Total: bs<span id="total">0.00</span></p>
+  <input type="precio" value="Comprar" />
+  </form>
+  <script src="script3.js"></script>  
+        <article id="cappuccino">
+            <h3>Cappuccino</h3>
+            <h4>Ingredientes</h4>
+            <ul>
+                <li>espresso</li>
+                <li>leche vaporizada</li>
+                <li>espuma de leche</li>
+                <li>cacao en polvo</li>
+            </ul>
+            <div class="pi">
+                <img src="cappuccino.png" alt="Imagen de un cappuccino" class="cappuccino">
+            </div>
+            <p>Delicioso cappuccino con espuma cremosa y un toque de canela.</p>
+        </article>
+        <article id="espresso">
+            <h3>Espresso</h3>
+            <h4>Ingredientes</h4>
+            <ul>
+                <li>granos de café molidos</li>
+                <li>agua caliente</li>
+                <li>azúcar al gusto</li>
+            </ul>
+            <div class="pi">
+                <img src="espresso.png" alt="Imagen de un espresso" class="espresso">
+            </div>
+            <p>Un espresso fuerte y aromático, perfecto para empezar el día.</p>
+        </article>
+
+        <article id="latte">
+            <h3>Latte</h3>
+            <h4>Ingredientes</h4>
+            <ul>
+                <li>espresso</li>
+                <li>leche vaporizada</li>
+                <li>jarabe de vainilla</li>
+                <li>espuma de leche</li>
+            </ul>
+            <div class="pi">
+                <img src="latte.png" alt="Imagen de un latte" class="latte">
+            </div>
+            <p>Suave latte con leche vaporizada y un toque de vainilla.</p>
+        </article>
+
+        <article id="mocha">
+            <h3>Mocha</h3>
+            <h4>Ingredientes</h4>
+            <ul>
+                <li>espresso</li>
+                <li>leche vaporizada</li>
+                <li>jarabe de chocolate</li>
+                <li>crema batida</li>
+            </ul>
+            <div class="pi">
+                <img src="mocha.png" alt="Imagen de un mocha" class="mocha">
+            </div>
+            <p>Delicioso mocha con chocolate derretido y crema batida.</p>
+        </article>
+    </section>
+<footer><h1>Hechos por Brandon Blanco</h1></footer>    
+</body>
+</html>

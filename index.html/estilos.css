@@ -1,0 +1,66 @@
+body{
+    background-color: #c38585;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+header,footer{
+    text-align: center;
+}
+.pastel{
+    background-color: #300e0d;
+    border: 2px solid #c77d7d;
+    padding: 20px;
+    border-radius: 10px;
+}
+img{
+    border-radius: 10px 10px 10px 10px;
+    margin: 0 auto;
+    width: 20%;
+    display: block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease;
+}
+.pi{
+    text-align: center;
+    font-size: 1.2em;
+    color: #333;
+}
+p{
+    text-align: center;
+    line-height: 1.2;
+    color: #444;
+}
+#menu{
+    text-align: center;
+    margin: 20px 0;
+}
+#contacto{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    color: aqua;
+}
+@media (max-width: 450px) {
+  form {
+    flex-direction: column;
+  }
+  body{
+    background-color: rgb(72, 24, 24);
+  }
+}
+.como{
+    color: #333;
+    background-color: #9a59b1;
+    border: 2px solid #466683;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+.como:hover{
+    color: white;
+    background-color: #2cb633;
+}

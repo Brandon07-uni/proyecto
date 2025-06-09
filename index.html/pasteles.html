@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pasteleria Blanco</title>
+  <link rel="stylesheet" href="estilos2.css" />
+</head>
+<body>
+    <header><h1>Pasteles</h1></header>
+    <nav id="menu">
+        <h2>Menu de Navegacion</h2>
+        <ul class="menu">
+            <h2><a href="index.html" class="como">Principal</a>
+            <a href="pasteles.html" class="como">Pasteles</a>
+            <a href="helados.html" class="como">Helados</a>
+            <a href="galletas.html" class="como">Galletas</a>
+            <a href="cafe.html" class="como">Cafeteria</a>
+            <a href="saludable.html" class="como">Saludable</a></h2>
+        </ul>
+    </nav>
+    <nav id="menu2">
+        <h2>Menu de Navegacion</h2>       
+        <ul>
+          <h3><li><a href="#tel">Patel de chocolate</a></li>
+          <li><a href="#pa">Patel de Choclo</a></li>
+          <li><a href="#tar">Tarta de frutas</a></li>
+          <li><a href="#che">Cheesecake de fresa</a></li>
+          </h3>
+        </ul>
+    </nav>
+<form>
+  <label for="producto">Producto:</label>
+  <select id="producto" name="producto">
+    <option value="">--Seleccione--</option>
+    <option value="chocolate1">Pastel de chocolate - 30.00 bs</option>
+    <option value="choclo">Pastel de choclo - 25.00 bs</option>
+    <option value="tarta">Tarta de frutas - 20.00 bs</option>
+    <option value="cheese">Cheesecake de fresa - 35.00 bs</option>
+  </select>
+  <br><br>
+
+  <label for="cantidad">Cantidad:</label>
+  <input type="number" id="cantidad" name="cantidad" min="1" value="1" />
+  <br><br>
+
+  <p>Precio unitario: bs<span id="precioUnitario">0.00</span></p>
+  <p>Total: bs<span id="total">0.00</span></p>
+  
+  <input type="submit" value="Comprar" />
+</form>
+
+<script src="script.js"></script>  
+  <section>
+  <article id="tel">
+  <h3>Pastel de Chocolate</h3>
+  <div class="contenido">
+    <div class="ingredientes">
+      <h4>Ingredientes</h4>
+      <ul>
+        <li>1 ¾ tazas (220 g) de harina de trigo (todo uso)</li>
+        <li>1 ½ tazas (300 g) de azúcar</li>
+        <li>¾ taza (65 g) de cacao en polvo sin azúcar</li>
+        <li>1 ½ cucharaditas de polvo para hornear</li>
+        <li>1 cucharadita de bicarbonato de sodio</li>
+        <li>½ cucharadita de sal</li>
+        <li>2 huevos grandes</li>
+        <li>1 taza (240 ml) de leche entera</li>
+        <li>½ taza (120 ml) de aceite vegetal</li>
+        <li>2 cucharaditas de extracto de vainilla</li>
+        <li>1 taza (240 ml) de agua hirviendo</li>
+      </ul>
+    </div>
+    <div class="pi">
+      <img src="pastel.png" alt="Imagen de un pastel delicioso" class="pastel">
+    </div>
+  </div>
+  <p>Delicioso pastel de chocolate con cobertura de galletas.</p>
+</article>
+  <article id="pa">
+    <h3>Pastel de choclo.</h3>   
+    <h4>Ingredientes</h4> 
+    <div class="pi">
+      <ul>
+        <li>4 a 5 choclos tiernos</li>
+        <li>Una taza de leche</li>
+        <li>3 Huevos</li>
+        <li>½ taza de azúcar </li>
+        <li>½ taza de mantequilla derretida </li>
+        <li>1 cucharadita de polvo de hornear</li>
+        <li>1 pizca de sal</li>
+        <li>1 ucgharadita de canela en polvo</li>
+        <li>pasas</li>
+        <li>Quesa rallado</li>        
+      </ul>
+      <img src="clo.png" alt="Delicioso pastel de choclo" class="choclo">
+    </div>
+    <p>Delicioso pastel de choclo hecho 100% con ingredientes naturales</p>
+  </article>
+  <article id="tar">
+    <h3>Tarta de Frutas</h3>
+    <h4>Ingredientes</h4>
+    <ul>
+      <li>200 g de harina de trigo</li>
+      <li>100 g de mantequilla ria en cubos</li>
+      <li>1 Huevo</li>
+      <li>1 pisca de sal</li>
+      <li>1 cucharadita de esencia de vaninilla</li>
+      <li>500 ml de leche</li>
+      <li>300-400 g de fresas</li>
+      <li>1 ucgharadita de canela en polvo</li>        
+    </ul>    
+    <div class="pi">
+      <img src="tarta.png" alt="Deliciosa tarta de frutas" class="tarta">
+    </div>
+    <p>Tarta fresca con una variedad de frutas de temporada.</p>
+  </article>
+  <article id="che">
+    <h3>cheesecake de fresa</h3>
+    <h4>Ingredientes</h4>
+    <ul>
+      <li>200 g de galletas</li>
+      <li>100 g de mantequilla</li>
+      <li>500 g de queso crema</li>
+      <li>200 ml de nata para montar</li>
+      <li>1 cucharadita de escencia de vainilla</li>
+      <li>100 de azucar</li>
+      <li>300 g de fresas frescas</li>
+      <li>1 cucharadita de zumo de limon</li>
+      <li>1 cucharadita de gelatina en polvo</li>
+    </ul>
+    <div class="pi">
+      <img src="fresa.png" alt="Deliciosa cheesecake de fresa" class="fresa">
+    </div>
+    <p>"Endulza tu día con nuestro cremoso cheesecake de fresa,
+      <br> ¡el postre que enamora desde el primer bocado!"</p>
+  </article>   
+  </section>
+</body>
+<h1><footer>Hecho po Brandon Blanco</footer></h1>
+</html>
